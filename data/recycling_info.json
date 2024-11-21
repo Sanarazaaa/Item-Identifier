@@ -1,0 +1,53 @@
+{
+    "Recyclable": {
+        "materials": [
+            "Paper",
+            "Cardboard",
+            "Glass",
+            "Metal",
+            "Hard Plastic"
+        ],
+        "instructions": [
+            "Clean the item before recycling",
+            "Remove any non-recyclable parts",
+            "Place in recycling bin"
+        ],
+        "impact": {
+            "co2_saved": 0.5,
+            "water_saved": 2.0,
+            "energy_saved": 1.5
+        }
+    },
+    "Non-Recyclable": {
+        "materials": [
+            "Soft Plastic",
+            "Styrofoam",
+            "Mixed Materials",
+            "Contaminated Items"
+        ],
+        "instructions": [
+            "Place in general waste",
+            "Consider alternatives next time",
+            "Check local disposal guidelines"
+        ],
+        "impact": {
+            "landfill_impact": 1.0
+        }
+    },
+    "Organic": {
+        "materials": [
+            "Food Waste",
+            "Plant Matter",
+            "Compostable Items"
+        ],
+        "instructions": [
+            "Place in compost bin",
+            "Break down larger items",
+            "Keep moisture balanced"
+        ],
+        "impact": {
+            "compost_produced": 0.3,
+            "methane_prevented": 0.2
+        }
+    }
+}
